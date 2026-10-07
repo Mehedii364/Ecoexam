@@ -1,0 +1,22 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Android build outputs & local caches
+.gradle/
+app/build/
+*.iml
+.idea/
+local.properties
+.externalNativeBuild
+.cxx
+
+# Allow APK download directory in git as specified
+!APK_DOWNLOAD/
+!.build-outputs/
+
